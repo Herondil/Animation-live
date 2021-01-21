@@ -1,0 +1,25 @@
+div{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	animation: large 2s infinite;
+	/* animation: haut 2s infinite; */
+}
+
+@keyframes large{
+  0% {
+    width   : 100px;
+  }
+  100% {
+    width : 1500px;
+  }
+}
+
+@keyframes haut{
+  0% {    
+    height  : 10px;
+  }
+  100% {
+    height  : 150px;
+  }
+}
